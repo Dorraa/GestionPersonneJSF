@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>LOGIN</title>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,400italic,600,300italic,300|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+
+
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.css" rel="stylesheet">
+		<link href="css/owl.transitions.css" rel="stylesheet">
+
+		<link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="contact" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title st-center">
+							<h3>Login</h3>
+							<p>Gestion Personne</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+                                            <form class="contact-form" role="form" action=GestionPersonneLogin method="POST">
+							<input type="text" class="form-control" id="fname" name="name" placeholder="">
+							<input type="password" class="form-control" id="email" name="pass" placeholder="">
+							<button class="btn btn-main btn-lg" type="submit" id="send" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Sending..."><i class="fa fa-paper-plane "></i> Log in</button>
+						</form>
+						<div id="result-message" role="alert"></div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+    </body>
+</html>
